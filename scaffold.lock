@@ -1,0 +1,27 @@
+Config:
+  Dryrun: false
+  Excludes: []
+  Includes: []
+  Location: .
+  Name: terraform-azurerm-bastion-host
+  PrettyName: Terraform Azurerm Bastion Host
+  Values:
+    Date: 27.06.2022 20:42:30
+    Name: terraform-azurerm-bastion-host
+    PrettyName: Terraform Azurerm Bastion Host
+    User: yngve
+    azureResource: azurerm_bastion_host
+Files:
+- LICENSE
+- README.md
+- examples/simple/main.tf
+- main.tf
+- outputs.tf
+- tests/Makefile
+- tests/examples_ut_test.go
+- tests/go.mod
+- variables.tf
+Hash: ""
+Templates:
+- terraform-module-public
+ToolVersion: canary
